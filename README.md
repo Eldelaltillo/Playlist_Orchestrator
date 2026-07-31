@@ -1,10 +1,4 @@
-Aquí tienes una plantilla completa y profesional para tu archivo **`README.md`**, redactada pensando exactamente en esa documentación clara que tu "yo del futuro" (o cualquier otro desarrollador) te agradecerá.
 
-Puedes copiar este contenido directamente en un archivo llamado `README.md` en la raíz de tu proyecto en GitHub.
-
----
-
-```markdown
 # 🎵 Playlist Orchestrator & Automatic Curator
 
 **Playlist Orchestrator** es un sistema automatizado en Python para gestionar, filtrar y curar listas de reproducción de Spotify mediante métricas de escucha reales obtenidas de **Last.fm**. 
