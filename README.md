@@ -31,8 +31,7 @@ Playlist Orchestrator/
 │   ├── spotify_brasil.py          # Script para gestionar Top 50 Brasil
 │   ├── playlist_orchestrator.py # Script orquestador/gestor principal
 │   ├── reporter.py               # Módulo generador de reportes visuales HTML
-│   ├── .env                      # Variables de entorno y credenciales (local)
-│   └── requirements.txt          # Lista de dependencias de Python
+│   └── .env                      # Variables de entorno y credenciales (local)
 └── README.md
 
 ```
