@@ -197,7 +197,7 @@ Mi_Proyecto_Compilado/
         ├── reporte_top_50_global.html
         ├── reporte_top_50_brasil.html
         └── reporte_top_50_colombia.html
-
+```
 > **¡Importante!** El archivo `.env` DEBE estar guardado en la misma carpeta donde estén alojados los archivos `spotify_***.exe`.
 
 ---
