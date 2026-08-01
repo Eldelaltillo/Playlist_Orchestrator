@@ -66,7 +66,7 @@ lastfm_network = pylast.LastFMNetwork(
     api_key=LASTFM_API_KEY,
     api_secret=LASTFM_API_SECRET,
     username=LASTFM_USERNAME,
-    password_hash=pylast.md5(LASTFM_PASSWORD),  # <-- Generar el hash con pylast.md5()
+    password_hash=pylast.md5(LASTFM_PASSWORD),
 )
 
 sp = spotipy.Spotify(
