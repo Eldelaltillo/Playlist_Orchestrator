@@ -204,31 +204,25 @@ Mi_Proyecto_Compilado/
 
 ## ⏰ Automatización con el Programador de Tareas de Windows
 
-Para que los scripts se ejecuten solos en segundo plano todos los días:
+Para que los scripts se ejecuten automáticamente en segundo plano todos los días:
 
 1. Presiona la tecla `Windows` y busca **Programador de tareas** (*Task Scheduler*).
 2. En el panel derecho, haz clic en **Crear tarea...** (*Create Task...*).
 3. **Pestaña General:**
-* Nombre: `Spotify Playlist Orchestrator`
-* Selecciona: **Ejecutar solo cuando el usuario haya iniciado sesión** (o la opción según tu preferencia).
-
+   * **Nombre:** `Spotify Playlist Orchestrator`
+   * Selecciona: **Ejecutar solo cuando el usuario haya iniciado sesión** (o la opción según tu preferencia).
 
 4. **Pestaña Desencadenadores (*Triggers*):**
-* Haz clic en **Nuevo...**
-* Configura la frecuencia (ejemplo: *Diariamente*, a las 08:00 AM).
-
+   * Haz clic en **Nuevo...**
+   * Configura la frecuencia deseada (ejemplo: Al iniciar la sesión un usuario).
 
 5. **Pestaña Acciones (*Actions*):**
-* Haz clic en **Nueva...**
-* Accion: *Iniciar un programa*.
-* **Programa o script:** Examina y selecciona tu ejecutable (ejemplo: `C:\Ruta\A\TuCarpeta\playlist_orchestrator.exe`).
-* **Iniciar en (opcional):** Pega la ruta completa de la carpeta donde está el ejecutable (ejemplo: `C:\Ruta\A\TuCarpeta\`). *¡Este paso evita errores de rutas relativas!*
-
+   * Haz clic en **Nueva...**
+   * **Acción:** *Iniciar un programa*.
+   * **Programa o script:** Examina y selecciona tu ejecutable (ejemplo: `C:\Ruta\A\TuCarpeta\playlist_orchestrator.exe`).
+   * **Iniciar en (opcional) / Start in (optional):** Pega la **ruta absoluta** de la carpeta principal donde se encuentra el ejecutable, **sin comillas** (ejemplo: `C:\Ruta\A\TuCarpeta\`).
+     > ⚠️ **Importante:** Definir el campo *Iniciar en* es **obligatorio** para garantizar que los scripts localicen correctamente el archivo `.cache` de autenticación de Spotify y el directorio `scripts/`.
 
 6. Haz clic en **Aceptar** para guardar la tarea.
 
 ---
-
-```
-
-```
